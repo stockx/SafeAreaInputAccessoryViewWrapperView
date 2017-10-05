@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## SafeAreaInputAccessoryViewWrapperView
 
-Copyright (c) 2017 jeffaburt <jburt1992@gmail.com>
+Copyright (c) 2017 Jeff Burt <jburt1992@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

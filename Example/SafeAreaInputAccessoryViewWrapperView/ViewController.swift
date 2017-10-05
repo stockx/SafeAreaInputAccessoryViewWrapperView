@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  SafeAreaInputAccessoryViewWrapperView
 //
-//  Created by jeffaburt on 10/05/2017.
-//  Copyright (c) 2017 jeffaburt. All rights reserved.
+//  Created by Jeff Burt on 10/05/2017.
+//  Copyright (c) 2017 StockX. All rights reserved.
 //
 
 import UIKit
