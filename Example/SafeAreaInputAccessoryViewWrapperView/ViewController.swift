@@ -7,18 +7,50 @@
 //
 
 import UIKit
+import SafeAreaInputAccessoryViewWrapperView
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet private var continueButton: UIButton!
+    
+    private lazy var wrappedContinueButton: SafeAreaInputAccessoryViewWrapperView = {
+        return SafeAreaInputAccessoryViewWrapperView(for: continueButton)
+    }()
+    
+    // MARK: Input Accessory View
+    
+    override var canBecomeFirstResponder: Bool {
+        return true
+    }
+    
+    override var inputAccessoryView: UIView? {
+        return wrappedContinueButton
+    }
+    
+    // MARK: View Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // SafeAreaInputAccessoryViewWrapperView also allows us to dynamically
+        // size the inputAccessoryView using autolayout, removing the need
+        // for us to set the frame manually here.
+        continueButton.heightAnchor.constraint(equalToConstant: 60).isActive = true
+        
+        // Always show the continue button, even when the keyboard is closed
+        becomeFirstResponder()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
+private extension ViewController {
+    @IBAction func didTapContinueButton(_ sender: Any) {
+        textField.resignFirstResponder()
+    }
+}
+
+extension ViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+}
