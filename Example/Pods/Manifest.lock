@@ -1,0 +1,16 @@
+PODS:
+  - SafeAreaInputAccessoryViewWrapperView (1.0.0)
+
+DEPENDENCIES:
+  - SafeAreaInputAccessoryViewWrapperView (from `../`)
+
+EXTERNAL SOURCES:
+  SafeAreaInputAccessoryViewWrapperView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SafeAreaInputAccessoryViewWrapperView: d7fc0b34bb3bd5637728c23e5ff181bf439de0e3
+
+PODFILE CHECKSUM: ecdd6f956b8530f4d2041cc682fe5228f74a5a96
+
+COCOAPODS: 1.3.1

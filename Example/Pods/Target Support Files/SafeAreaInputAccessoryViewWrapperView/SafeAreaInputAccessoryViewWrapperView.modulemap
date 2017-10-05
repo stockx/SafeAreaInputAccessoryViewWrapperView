@@ -1,0 +1,6 @@
+framework module SafeAreaInputAccessoryViewWrapperView {
+  umbrella header "SafeAreaInputAccessoryViewWrapperView-umbrella.h"
+
+  export *
+  module * { export * }
+}

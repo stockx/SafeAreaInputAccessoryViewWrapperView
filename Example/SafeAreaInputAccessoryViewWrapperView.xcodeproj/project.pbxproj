@@ -31,7 +31,7 @@
 		05DDBD951A3BEDD29A6E06CC /* Pods-SafeAreaInputAccessoryViewWrapperView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeAreaInputAccessoryViewWrapperView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafeAreaInputAccessoryViewWrapperView_Tests/Pods-SafeAreaInputAccessoryViewWrapperView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1BF32CEAEE6F54C274A2E096 /* Pods-SafeAreaInputAccessoryViewWrapperView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeAreaInputAccessoryViewWrapperView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafeAreaInputAccessoryViewWrapperView_Tests/Pods-SafeAreaInputAccessoryViewWrapperView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3B968BFA989097AA28D2D145 /* Pods-SafeAreaInputAccessoryViewWrapperView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeAreaInputAccessoryViewWrapperView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafeAreaInputAccessoryViewWrapperView_Example/Pods-SafeAreaInputAccessoryViewWrapperView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4125E78FE4D52BAE9A518136 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4125E78FE4D52BAE9A518136 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SafeAreaInputAccessoryViewWrapperView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeAreaInputAccessoryViewWrapperView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 		607FACE51AFB9204008FA782 /* SafeAreaInputAccessoryViewWrapperView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeAreaInputAccessoryViewWrapperView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		73B00450562FC9A77D1C8904 /* SafeAreaInputAccessoryViewWrapperView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SafeAreaInputAccessoryViewWrapperView.podspec; path = ../SafeAreaInputAccessoryViewWrapperView.podspec; sourceTree = "<group>"; };
+		73B00450562FC9A77D1C8904 /* SafeAreaInputAccessoryViewWrapperView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SafeAreaInputAccessoryViewWrapperView.podspec; path = ../SafeAreaInputAccessoryViewWrapperView.podspec; sourceTree = "<group>"; };
 		7F1FB83A72C1992C5F4E3257 /* Pods_SafeAreaInputAccessoryViewWrapperView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeAreaInputAccessoryViewWrapperView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		955ACDB426A1C1CC5DC33EAB /* Pods-SafeAreaInputAccessoryViewWrapperView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeAreaInputAccessoryViewWrapperView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafeAreaInputAccessoryViewWrapperView_Example/Pods-SafeAreaInputAccessoryViewWrapperView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		98254BF8D04BCA495E863DFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		98254BF8D04BCA495E863DFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9F33CCF948FF9C4AC1E158E7 /* Pods_SafeAreaInputAccessoryViewWrapperView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeAreaInputAccessoryViewWrapperView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -452,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -492,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

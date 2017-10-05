@@ -1,0 +1,6 @@
+framework module Pods_SafeAreaInputAccessoryViewWrapperView_Tests {
+  umbrella header "Pods-SafeAreaInputAccessoryViewWrapperView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
