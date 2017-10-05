@@ -3,6 +3,9 @@ Pod::Spec.new do |s|
   s.version          = '1.0.0'
   s.screenshot       = ''
   s.summary          = 'SafeAreaInputAccessoryViewWrapperView provides a way to wrap custom inputAccessoryView views to respect bottom safe area layouts.'
+  s.description      = <<-DESC
+SafeAreaInputAccessoryViewWrapperView is useful for wrapping a view to be used as an inputAccessoryView. Without this, setting the view as an inputAccessoryView will ignore safe area layouts. For example, the Home screen indicator on iPhone X will battle for the same spot. This class ensures that the view respects safe area layouts and does not cover up system UI elements such as the Home screen indicator on iPhone X.
+                       DESC
   s.homepage         = 'https://github.com/StockX/SafeAreaInputAccessoryViewWrapperView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jeff Burt' => 'jburt1992@gmail.com' }
