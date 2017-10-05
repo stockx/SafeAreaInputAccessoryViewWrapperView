@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SafeAreaInputAccessoryViewWrapperView_Example' do
+  pod 'SafeAreaInputAccessoryViewWrapperView', :path => '../'
+
+  target 'SafeAreaInputAccessoryViewWrapperView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
