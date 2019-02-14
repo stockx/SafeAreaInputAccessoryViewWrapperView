@@ -76,3 +76,16 @@ public class SafeAreaInputAccessoryViewWrapperView: UIView {
         return .zero
     }
 }
+
+public extension SafeAreaInputAccessoryViewWrapperView {
+    /// Returns the size of this wrapper view by computing it from the size of it's content.
+    /// NOTE: This is not used internally, but rather, it's a convenience helper for views that
+    /// might need to adjust their constraints or insets based on this size.
+    /// This will also work when changing the size of the application window due to iPad Multitasking.
+    public func computedSize() -> CGSize {
+        return systemLayoutSizeFitting(CGSize(width: UIApplication.shared.keyWindow?.bounds.width ?? UIScreen.main.bounds.width,
+                                              height: .greatestFiniteMagnitude),
+                                       withHorizontalFittingPriority: .required,
+                                       verticalFittingPriority: .fittingSizeLevel)
+    }
+}
